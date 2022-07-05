@@ -38,23 +38,23 @@ namespace AddressBookSystem
             Person person = new Person();
 
             Console.Write("Enter First Name: ");
-            person.FirstName = Console.ReadLine().Trim();
+            person.FirstName = Console.ReadLine();
 
             Console.Write("Enter Last Name: ");
-            person.LastName = Console.ReadLine().Trim();
+            person.LastName = Console.ReadLine();
 
             Console.Write("Enter Phone Number: ");
-            person.PhoneNumber = Console.ReadLine().Trim();
+            person.PhoneNumber = Console.ReadLine();
 
             Console.Write("Enter Your Address\nEnter Area/Colony Name: ");
 
-            person.Area = Console.ReadLine().Trim();
+            person.Area = Console.ReadLine();
             Console.Write("Enter CityName: ");
-            person.City = Console.ReadLine().Trim();
+            person.City = Console.ReadLine();
             Console.Write("Enter State: ");
-            person.State = Console.ReadLine().Trim();
+            person.State = Console.ReadLine();
             Console.Write("Enter ZipCode: ");
-            person.ZipCode = Console.ReadLine().Trim();
+            person.ZipCode = Console.ReadLine();
 
 
             if (a == -1)
