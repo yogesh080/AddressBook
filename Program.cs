@@ -12,7 +12,7 @@
             while (command != "exit")
             {
                 Console.Clear();
-                Console.WriteLine("Enter \'add\' to Add a person, Enter \'list' to list ther person to Address in the AddressBook;");
+                Console.WriteLine("Enter \'add\' to Add a person, Enter \'list' to list person AddressBook;");
                 command = Console.ReadLine();
                 switch (command)
                 {
@@ -21,6 +21,11 @@
                         break;
                     case "list":
                         createPerson.ListPerson();
+                        break;
+                    case "edit":
+                        Console.Write("Enter the full name to edit: ");
+                        string Name = Console.ReadLine();
+                        createPerson.Edit(Name.Trim());
                         break;
 
                 }
